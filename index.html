@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I-Dragon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+
+  <div class="score-board">
+    Score: <span id="score">0</span> |
+    High Score: <span id="highScore">0</span>
+  </div>
+
+  <div class="dragon" id="dragon"></div>
+  <div class="obstacle" id="obstacle"></div>
+
+  <div class="game-over" id="gameOver">
+    <h2>Game Over</h2>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
